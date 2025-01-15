@@ -11,7 +11,7 @@ public class Ejer3 {
 		// Importo random.
 		Random rd = new Random();
 		
-		// Creo la colección (de forma ordenada.)
+		// Creo la lista donde almacenare los numerosAleatorios generados
 		ArrayList<Integer> numerosAleatorios = new ArrayList<>();
 		
 		// Bucle para ir insertando los numeros generados.
