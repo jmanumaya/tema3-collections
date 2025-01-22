@@ -24,7 +24,7 @@ public class Ejer4 {
 		int cont = 0;
 		
 		// Variable que inicializo con el numero de veces que quiero añadir un numero.
-		int repite = 20;
+		final int repite = 20;
 
 		// Bucle para ir insertando los numeros generados si procede.
 		while (cont < repite) {
