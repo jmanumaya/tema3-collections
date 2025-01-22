@@ -25,7 +25,7 @@ public class Ejer5 {
 			name = sc.nextLine();
 			// Compruebo que no haya introducido fin para poder añadirlo al conjunto.
 			if(!name.equals("fin")) {
-				// Añado el nombre introducido al conjunto.
+				// Añado el nombre introducido al conjunto
 				nombres.add(name);
 			}
 		} while (!name.equals("fin"));
