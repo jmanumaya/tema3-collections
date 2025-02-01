@@ -27,7 +27,7 @@ public class Ejer5 {
 			
 			// Muestro el menu y espero una respuesta por parte del usuario
 			System.err.println("\nMenú de Opciones:");
-			System.out.println("1. Agregar Serie\n2. Buscar Serie\n3. Eliminar Serie\n0. Salir");
+			System.out.println("1. Agregar Serie\n2. Buscar Serie\n3. Eliminar Serie\n4. Salir");
 			System.out.print("Selecciona una Opción: ");
 			opcion = sc.nextInt();
 			sc.nextLine();
@@ -70,7 +70,7 @@ public class Ejer5 {
 	            	if (series.containsKey(nombre)) {
 	            		// Elimino la clave (= nombre) de la lista (hashmap) productos
 	            		series.remove(nombre);
-                        System.out.println("Serie eliminado correctamente.");
+                        System.out.println("Serie eliminada correctamente.");
                     } else {
                     	System.out.println("La Serie no existe.");
                     }
