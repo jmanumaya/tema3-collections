@@ -46,5 +46,8 @@ public class Ejer3 {
 		
 		// Imprimo el mapa
 		System.out.println(mapaCaracteres);
+		
+		// Cierro uso de escaner.
+		sc.close();
 	}
 }
