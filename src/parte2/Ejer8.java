@@ -23,7 +23,7 @@ public class Ejer8 {
             // Limpio buffer
             scanner.nextLine();
 
-            // Switch para hacer la opcion que el usuario haya introducido.
+            // Switch para hacer la opcion que el usuario haya introducido
             switch (opcion) {
             	// Caso 1, llamo a la funcion agregarTarea (el propio nombre indica que hará)
                 case 1 -> agregarTarea();
